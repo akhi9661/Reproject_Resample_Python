@@ -6,8 +6,6 @@ Inputs:
 input_folder = folder containing all the images.
 file_ref = Reference image for projection system and resampling.
 
-Please change the
-
 Output:
 Final output folder: 'Resampled'
 
@@ -15,8 +13,8 @@ Note: A temporary image is generated as well but is automatically removed after 
 
 '''
 
-input_folder = r'D:\Aerosol Modelling\Aerosol\Output\Testttt'
-file_ref = r'D:\Aerosol Modelling\Aerosol\Output\S2A1C\T43REK_Jaipur_2021\MSIL1C_2021-04-09_T43REK.data\Resampled\B4_resample.TIF'
+input_folder = input("Enter the folder path containing files to be reprojected and resampled:\n")
+file_ref = input("Enter the path of the reference image:\n")
 
 ''' ------------------------------------------------------------------------------------------------------------------ '''
 
